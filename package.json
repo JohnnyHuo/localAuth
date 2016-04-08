@@ -1,9 +1,25 @@
 {
-  "name": "authenticator-demo",
+  "name": "authenticator",
   "main": "index.js",
   "scripts": {
     "start": "nodemon --exec babel-node -- --stage 1 --optional strict -- index.js"
   },
   "dependencies": {
-  }
+    "babel-cli": "^6.6.5",
+    "babel-plugin-transform-async-to-generator": "^6.7.4",
+    "babel-plugin-transform-strict-mode": "^6.6.5"
+  },
+  "description": "A local authentication app using [`passport`](http://passportjs.org).",
+  "version": "1.0.0",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrabDude/nodejs-authenticator-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CrabDude/nodejs-authenticator-starter/issues"
+  },
+  "homepage": "https://github.com/CrabDude/nodejs-authenticator-starter#readme"
 }
